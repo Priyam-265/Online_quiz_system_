@@ -8,7 +8,7 @@ import HomePage from "./pages/HomePage";
 import Leaderboard from "./pages/Leaderboard";
 import Typing from "./pages/typing";
 import CodingQuiz from "./pages/CodingQuiz";
-import GeneralKnowledgeQuiz from "./pages/GeneralKnowledgeQuiz";
+import GeneralKnowledgeQuiz from "./pages/generalknowledgeQuiz";
 import ComputerQuiz from "./pages/ComputerQuiz";
 import ScienceQuiz from "./pages/ScienceQuiz";
 import AboutUs from "./pages/AboutUs";
