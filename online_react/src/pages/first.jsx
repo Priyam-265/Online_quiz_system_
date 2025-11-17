@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '@google/model-viewer';
-import Second from './Second.jsx';
+import Second from './second.jsx';
 import { Link } from 'react-router-dom';
 // GSAP from CDN
 const gsap = window.gsap;

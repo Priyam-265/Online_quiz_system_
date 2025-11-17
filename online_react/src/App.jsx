@@ -2,11 +2,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"; 
 
-import First from "./pages/First";
-import Second from "./pages/Second";
+import First from "./pages/first";
+import Second from "./pages/second";
 import HomePage from "./pages/HomePage";
 import Leaderboard from "./pages/Leaderboard";
-import Typing from "./pages/Typing";
+import Typing from "./pages/typing";
 import CodingQuiz from "./pages/CodingQuiz";
 import GeneralKnowledgeQuiz from "./pages/GeneralKnowledgeQuiz";
 import ComputerQuiz from "./pages/ComputerQuiz";
