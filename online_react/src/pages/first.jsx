@@ -33,9 +33,11 @@ const handleNavigate = (page) => {
 
   // Detect environment and set API base
   const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-  const API_BASE = isLocal 
-    ? "http://localhost:3000" 
-    : "https://online-quiz-system-s3z6.onrender.com";
+  // const API_BASE = isLocal 
+  //   ? "http://localhost:3000" 
+  //   : "https://online-quiz-system-s3z6.onrender.com";
+
+    const API_BASE=import.meta.env.VITE_NAT_BASE;
 
   // Intro animation
   useEffect(() => {
