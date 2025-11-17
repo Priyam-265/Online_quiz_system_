@@ -3,8 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import HomePage from "./HomePage";
-import CodingQuiz from "../pages/CodingQuiz";
-import GeneralKnowledgeQuiz from "../pages/GeneralKnowledgeQuiz";
+import CodingQuiz from "./CodingQuiz";
+import GeneralKnowledgeQuiz from "./GeneralKnowledgeQuiz";
 import Typing from "./Typing"; // make sure file name matches — Typing.jsx
 // If Typing.jsx doesn’t exist yet, create it or comment this out
 
