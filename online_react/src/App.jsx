@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"; 
-import First from "./pages/First";
+import First from "./pages/first";
 import Second from "./pages/second";
 import Homepage from "./pages/Homepage";
 import Leaderboard from "./pages/Leaderboard";

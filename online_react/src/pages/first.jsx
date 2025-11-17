@@ -35,7 +35,7 @@ const handleNavigate = (page) => {
   const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
   const API_BASE = isLocal 
     ? "http://localhost:3000" 
-    : "https://online-quiz-system-t7it.onrender.com";
+    : "https://online-quiz-system-s3z6.onrender.com";
 
   // Intro animation
   useEffect(() => {
